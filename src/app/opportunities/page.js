@@ -123,7 +123,7 @@ const page = () => {
             </div>
             <p>23 offers</p>
           </div>
-          <div>
+          <div className="mt-20">
             {data.map((item, index) => (
               <Card
                 key={index}

@@ -12,4 +12,17 @@ body {
   @apply max-w-[1440px] w-full px-5 lg:px-10;
 }
 
+.blue-gradient {
+  background: radial-gradient(#43AAD6 5%, transparent);
+}
+
+.red-gradient {
+  background: radial-gradient(#D6435D 5%, transparent);
+}
+
+.orange-gradient {
+  background: radial-gradient(#D66643 5%, transparent);
+}
+
+
 @tailwind utilities;
