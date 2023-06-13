@@ -1,18 +1,32 @@
+"use client";
 import Footer from "@/components/Footer/Footer";
 import NavBar from "@/components/NavBar/NavBar";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 const Card = (props) => {
+  const [hover, setHover] = useState(false);
+
   return (
-    <div className="rounded-lg border border-black font-bold text-base overflow-hidden flex flex-col">
+    <div
+      className={`rounded-lg border border-black font-bold text-base flex flex-col relative bg-[#D9D9D9] transition-all duration-300 ${
+        hover && "bg-[#F1F1F1]"
+      }`}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+    >
+      <div
+        className={`absolute w-full h-full bg-blue-600 rounded-lg -z-10  transition-all duration-300 ${
+          hover && "rotate-3"
+        }`}
+      ></div>
       <div className="h-28 bg-white rounded-lg"></div>
       <div className="p-5 flex flex-col justify-between flex-1">
         <div>
           <h3 className="w-4/5">{props.heading}</h3>
           <p className="font-normal text-sm mt-2.5">{props.date}</p>
         </div>
-        <div className="flex justify-between mt-10 items-center">
+        <div className="flex justify-between mt-4 items-center">
           <div className="font-normal text-sm flex items-center gap-1">
             <Image
               src="/EyeOutline.png"
@@ -23,7 +37,11 @@ const Card = (props) => {
             />
             {props.views}
           </div>
-          <button className="border border-[#3896AB] rounded text-xs text-[#3896AB] px-3 py-2">
+          <button
+            className={`border border-[#3896AB] rounded text-xs text-[#3896AB] px-3 py-2 duration-300 ${
+              hover && "text-white bg-[#3896AB]"
+            }`}
+          >
             Read full article
           </button>
         </div>
