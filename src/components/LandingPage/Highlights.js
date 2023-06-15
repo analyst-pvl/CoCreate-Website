@@ -4,8 +4,11 @@ const Card = (props) => {
   return (
     <div className="flex-1 flex items-center flex-col">
       <div
-        className={`w-44 h-44  flex items-center justify-center ${props.className}`}
+        className={`relative w-44 h-44  flex items-center justify-center ${props.className}`}
       >
+        <div className="absolute w-full h-full top-0 left-0 items-center justify-center flex">
+          <p className="text-black text-7xl">{props.highlight}</p>
+        </div>
         <div
           className={`w-8 h-8 flex items-center justify-center ${props.className}`}
         >
@@ -30,14 +33,17 @@ const Highlights = () => {
           <Card
             parah="Startups with deep-tech as a differentiator launched in 12 months"
             className="blue-gradient"
+            highlight="40+"
           />
           <Card
             parah="Businesses transformed to help them embrace digital and become enduring ventures"
             className="red-gradient"
+            highlight="15"
           />
           <Card
             parah="20+ student entrepreneurs that includes 7 female founders building 12 amazing campus startups"
             className="orange-gradient"
+            highlight="20+"
           />
         </div>
       </div>

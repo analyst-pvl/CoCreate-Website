@@ -12,7 +12,7 @@ const page = () => {
   return (
     <>
       <NavBar />
-      <Funding />
+      {/* <Funding /> */}
       <Innovation />
       <Highlights />
       <Partner />

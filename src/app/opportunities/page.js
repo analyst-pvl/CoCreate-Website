@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import NavBar from "@/components/NavBar/NavBar";
 import Footer from "@/components/Footer/Footer";
+import data from "../../../data/opportunities";
 
 const Card = (props) => {
   return (
@@ -23,90 +24,6 @@ const Card = (props) => {
 };
 
 const page = () => {
-  const data = [
-    {
-      title: "Lead Partner - Ventures",
-      description:
-        "The Lead Partner would be in-charge of the portfolio and the seamless execution of their activities as a part of CoCreate.",
-      image: "/LeadPartner.svg",
-      link: "",
-      height: 110,
-      width: 42,
-    },
-    {
-      title: "UI/UX Designer",
-      description:
-        "UI/UX Designer responsibilities include gathering user requirements, designing graphic elements, and building interface components.",
-      image: "/Designer.svg",
-      link: "",
-      height: 73,
-      width: 73,
-    },
-    {
-      title: "React Frontend Developer",
-      description:
-        "Working in tandem with the UI/UX team to develop new features using React.js for the web platform.",
-      image: "/Frontend.svg",
-      link: "",
-      height: 92,
-      width: 64,
-    },
-    {
-      title: "Backend Developer",
-      description:
-        "Work closely with the product head and UX designers to understand the product vision and design philosophy.",
-      image: "/Backend.svg",
-      link: "",
-      height: 61,
-      width: 72,
-    },
-    {
-      title: "Fullstack Developer",
-      description:
-        "Developing end-to-end web applications, Creating rapid prototypes and upgrading them to full-scale applications by working collaboratively with the design and development team",
-      image: "/Fullstack.svg",
-      link: "",
-      height: 66,
-      width: 73,
-    },
-    {
-      title: "Cyber Security and Network Engineers",
-      description:
-        "Looking for dedicated interns who can work in various cybersecurity areas and enhance their experience and relevant skills in cybersecurity.",
-      image: "/CyberSecurity.svg",
-      link: "",
-      height: 70,
-      width: 70,
-    },
-    {
-      title: "Content Writer",
-      description:
-        "If you know and love content creation like we at PVL love innovation, let’s get talking.",
-      image: "/ContentWriter.svg",
-      link: "",
-      height: 70,
-      width: 70,
-    },
-    {
-      title: "PR and Outreach Executive",
-      description:
-        "Accomplishing crucial coverage for portfolio companies and working to enhance media presence of CoCreate in an innovative manner.",
-      image: "/PR.svg",
-      link: "",
-      height: 70,
-      width: 70,
-    },
-    {
-      title: "Digital Marketing Executive",
-      description:
-        "Establishing an end-to-end leads process and guiding the implementation and execution across multiple social media platforms.",
-      image: "/DigitalMarketing.svg",
-      link: "",
-      height: 70,
-      width: 70,
-    },
-  ];
-
   return (
     <>
       <NavBar />
@@ -143,6 +60,21 @@ const page = () => {
               </Card>
             ))}
           </div>
+        </div>
+      </div>
+      <div className="flex justify-center mt-20 bg-[#1F1F1F] text-white">
+        <div className="container py-20 flex flex-col items-center">
+          <h3 className="font-medium text-5xl text-center">
+            Dont See What You’re Looking For?
+          </h3>
+          <p className="text-center max-w-[600px] mt-4 mb-10 text-lg">
+            Want to be part of the PVL family but not sure how you can
+            contribute? Don’t worry! Unique talents are always appreciated here
+            at PVL! Feel free to reach out to us via mail!
+          </p>
+          <button className="border border-white  py-3 px-12 rounded-lg">
+            Mail Us
+          </button>
         </div>
       </div>
       <Footer />

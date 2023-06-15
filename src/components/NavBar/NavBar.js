@@ -12,7 +12,7 @@ const NavBar = () => {
         </Link>
         <div className="italic flex items-center gap-10">
           <Link href="/pebble">Pebble</Link>
-          <Link href="/venture-studio">Venture Studio</Link>
+          {/* <Link href="/venture-studio">Venture Studio</Link> */}
           <Link href="/news">News</Link>
           <Link href="/portfolio">Portfolio</Link>
           <Link href="/opportunities">Opportunities</Link>
