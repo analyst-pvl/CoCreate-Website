@@ -26,3 +26,11 @@ body {
 
 
 @tailwind utilities;
+
+.triangle{
+	width: 0;
+	height: 0;
+	border-width: 34px 24px 0 24px;
+	border-color: black transparent transparent transparent;
+	border-style: solid;
+}

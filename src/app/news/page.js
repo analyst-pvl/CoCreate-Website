@@ -1,69 +1,11 @@
 import Footer from "@/components/Footer/Footer";
 import NavBar from "@/components/NavBar/NavBar";
 import NewsCard from "@/components/NewsCard/NewsCard";
-import Image from "next/image";
+
 import React from "react";
-
-
+import data from "../../../data/news";
 
 const page = () => {
-  const data = [
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-    },
-  ];
-
   return (
     <>
       <NavBar />

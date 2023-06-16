@@ -7,12 +7,14 @@ import Highlights from "@/components/LandingPage/Highlights";
 import MediaMentions from "@/components/LandingPage/MediaMentions";
 import Team from "@/components/LandingPage/Team";
 import Partner from "@/components/LandingPage/Partner";
+import Hero from "@/components/LandingPage/Hero";
 
 const page = () => {
   return (
     <>
       <NavBar />
-      {/* <Funding /> */}
+      <Hero />
+      <Funding />
       <Innovation />
       <Highlights />
       <Partner />

@@ -16,7 +16,7 @@ const NavBar = () => {
           <Link href="/news">News</Link>
           <Link href="/portfolio">Portfolio</Link>
           <Link href="/opportunities">Opportunities</Link>
-          <button className="bg-[#3BDAFF] text-black py-4 px-6 rounded-lg">
+          <button className="bg-[#3BDAFF] text-black py-4 px-6 rounded-lg font-medium">
             Apply Now
           </button>
         </div>
