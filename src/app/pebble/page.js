@@ -3,6 +3,7 @@ import Footer from "@/components/Footer/Footer";
 import NavBar from "@/components/NavBar/NavBar";
 import Image from "next/image";
 import React, { useState } from "react";
+import data from "../../../data/pebble";
 
 const Card = (props) => {
   const [hover, setHover] = useState(false);
@@ -51,22 +52,6 @@ const Card = (props) => {
 };
 
 const page = () => {
-  const data = [
-    {
-      heading: "Insights with Gokul Rajaram & Suresh Narasimha",
-      date: "June 21, 2021",
-      link: "",
-      views: "30k",
-    },
-    {
-      heading:
-        "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-      date: "June 21, 2021",
-      link: "",
-      views: "30k",
-    },
-  ];
-
   return (
     <>
       <NavBar />
