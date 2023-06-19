@@ -24,7 +24,7 @@ const Card = (props) => {
       <div className="h-28 bg-white rounded-lg"></div>
       <div className="p-5 flex flex-col justify-between flex-1">
         <div>
-          <h3 className="w-4/5">{props.heading}</h3>
+          <h3 className="lg:w-4/5">{props.heading}</h3>
           <p className="font-normal text-sm mt-2.5">{props.date}</p>
         </div>
         <div className="flex justify-between mt-4 items-center">
@@ -59,15 +59,15 @@ const page = () => {
         <div className="container py-20 min-h-screen">
           <div className="flex items-center flex-col">
             <Image src="./Pebble.svg" height={106} width={170} />
-            <h1 className="font-semibold text-5xl text-center mt-5 max-w-[800px]">
+            <h1 className="font-semibold text-4xl lg:text-5xl text-center mt-5 max-w-[800px]">
               Community of future innovators & entrepreneurs on campus
             </h1>
           </div>
           <div className="flex justify-between mt-20 items-end">
-            <h2 className="text-5xl font-medium">Latest mentions</h2>
-            <p className="text-2xl opacity-70">23 videos</p>
+            <h2 className="text-4xl lg:text-5xl font-medium">Latest mentions</h2>
+            <p className="text-xl lg:text-2xl opacity-70 sm:block hidden">23 videos</p>
           </div>
-          <div className="grid grid-cols-4 mt-20 gap-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-20 gap-10">
             {data.map((item, index) => (
               <Card
                 key={index}

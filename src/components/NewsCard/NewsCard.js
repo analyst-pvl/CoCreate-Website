@@ -19,7 +19,7 @@ const NewsCard = (props) => {
       ></div>
       <div className="h-28 bg-white rounded-lg"></div>
       <div className="p-5 flex flex-col justify-between">
-        <h3 className="w-4/5">{props.heading}</h3>
+        <h3 className="lg:w-4/5">{props.heading}</h3>
         <div className="flex justify-between mt-10 items-end">
           <p className="font-normal text-sm">{props.date}</p>
           <button

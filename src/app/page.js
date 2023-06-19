@@ -8,6 +8,7 @@ import MediaMentions from "@/components/LandingPage/MediaMentions";
 import Team from "@/components/LandingPage/Team";
 import Partner from "@/components/LandingPage/Partner";
 import Hero from "@/components/LandingPage/Hero";
+import Excuse from "@/components/LandingPage/Excuse";
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <Funding />
       <Innovation />
       <Highlights />
+      <Excuse />
       <Partner />
       <Team />
       <MediaMentions />

@@ -27,10 +27,54 @@ body {
 
 @tailwind utilities;
 
-.triangle{
-	width: 0;
-	height: 0;
-	border-width: 34px 24px 0 24px;
-	border-color: black transparent transparent transparent;
-	border-style: solid;
+.triangle {
+  width: 0;
+  height: 0;
+  border-width: 34px 24px 0 24px;
+  border-color: black transparent transparent transparent;
+  border-style: solid;
+}
+
+#counter {
+  height: 6em;
+  overflow: hidden;
+}
+
+.digits {
+  float: left;
+  list-style-type: none;
+  line-height: 1em;
+}
+
+.digits-first {
+  margin-top: -24em;
+  /* number 4! */
+}
+
+.digits-second {
+  margin-top: 0em;
+  /* number 0! */
+}
+
+.digits-third {
+  margin-top: -24em;
+  /* number 4! */
+}
+
+.digits {
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.luckie {
+  animation-name: luckie;
+}
+
+/* Animations */
+@keyframes luckie {
+  100% {
+    margin-top: -42em;
+  }
 }
