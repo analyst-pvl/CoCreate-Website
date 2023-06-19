@@ -9,6 +9,7 @@ import Team from "@/components/LandingPage/Team";
 import Partner from "@/components/LandingPage/Partner";
 import Hero from "@/components/LandingPage/Hero";
 import Excuse from "@/components/LandingPage/Excuse";
+import Programs from "@/components/LandingPage/Programs";
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
       <Innovation />
       <Highlights />
       <Excuse />
+      <Programs />
       <Partner />
       <Team />
       <MediaMentions />
