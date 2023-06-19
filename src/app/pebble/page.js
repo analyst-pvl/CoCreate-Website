@@ -63,7 +63,7 @@ const page = () => {
               Community of future innovators & entrepreneurs on campus
             </h1>
           </div>
-          <div className="flex justify-between mt-20 items-end">
+          <div className="flex sm:justify-between mt-20 items-end justify-center">
             <h2 className="text-4xl lg:text-5xl font-medium">Latest mentions</h2>
             <p className="text-xl lg:text-2xl opacity-70 sm:block hidden">23 videos</p>
           </div>

@@ -21,6 +21,10 @@ const Card = (props) => {
 };
 
 const MobileView = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="container py-10 min-h-screen flex items-center flex-col gap-10">
       <div className="w-full sticky top-[94px] z-10 bg-black">
@@ -185,10 +189,10 @@ const Page = () => {
   const [viewData, setViewData] = useState(false);
   const middleIndex = Math.floor(data.length / 2);
   const [index, setIndex] = useState(0);
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 1024);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 1280);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 1024);
+    setDesktop(window.innerWidth > 1280);
   };
 
   useEffect(() => {

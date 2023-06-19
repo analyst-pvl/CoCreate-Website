@@ -51,7 +51,7 @@ const Highlights = () => {
           <h2 className="text-5xl text-center font-medium">HighLights</h2>
           <div className="border-2 w-[10%]" />
         </div>
-        <div className="flex gap-20 mt-20">
+        <div className="flex gap-20 mt-20 flex-wrap">
           <Card
             parah="Startups with deep-tech as a differentiator launched in 12 months"
             className="blue-gradient"
