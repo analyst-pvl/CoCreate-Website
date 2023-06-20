@@ -189,10 +189,10 @@ const Page = () => {
   const [viewData, setViewData] = useState(false);
   const middleIndex = Math.floor(data.length / 2);
   const [index, setIndex] = useState(0);
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 1280);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 1024);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 1280);
+    setDesktop(window.innerWidth > 1024);
   };
 
   useEffect(() => {

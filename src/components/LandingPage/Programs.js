@@ -3,6 +3,23 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
+const Card = (props) => {
+  return (
+    <div className="bg-[#f1f1f0] text-black font-bold w-full">
+      <div className="flex">
+        <div className="bg-[#D6435D] flex-1 h-1" />
+        <div className="bg-[#463AD4] flex-1 h-1" />
+        <div className="bg-[#3EBDD9] flex-1 h-1" />
+        <div className="bg-[#E7B73D] flex-1 h-1" />
+      </div>
+      <div className="flex items-center justify-center h-44 px-10">
+        {/* <Image /> */}
+        <p className="text-center">{props.parah}</p>
+      </div>
+    </div>
+  );
+};
+
 const Programs = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [inViewRef, inView] = useInView({
@@ -23,36 +40,35 @@ const Programs = () => {
         <h2 className="text-center font-semibold text-3xl lg:text-4xl">
           CoCreate companies are clearly different
         </h2>
-        <div className="flex">
-          <div>
-            <div className="">
-              <Image />
-              <p>Brightest in academics</p>
-            </div>
-            <div className="">
-              <Image />
-              <p>Legal compliance</p>
-            </div>
+        <div className="flex py-10 gap-x-10 flex-col md:flex-row gap-y-10">
+          <div className="flex-1 gap-10 flex flex-col">
+            <Card parah="Brightest in academics" />
+            <Card parah="Legal compliance" />
           </div>
-          <div>
-            <Image />
-            <p>Teams with high energy</p>
+          <div className="flex-[1.2_1.2_0%] flex items-center justify-center">
+            <Card parah="Teams with high energy" />
           </div>
-          <div>
-            <div>
-              <Image />
-              <p>Digital compliance</p>
-            </div>
-            <div>
-              <Image />
-              <p>Brand compliance</p>
-            </div>
+          <div className="flex-1 gap-10 flex flex-col">
+            <Card parah="Digital compliance" />
+            <Card parah="Brand compliance" />
           </div>
         </div>
         <h2 className="text-center font-semibold text-3xl lg:text-4xl">
           Bright students love us as we make
         </h2>
-        <div></div>
+        <div className="flex py-10 gap-x-10 flex-col md:flex-row gap-y-10">
+          <div className="flex-1 gap-10 flex flex-col">
+            <Card parah="Academic flexibility & timing" />
+            <Card parah="Career Insurance" />
+          </div>
+          <div className="flex-[1.2_1.2_0%] flex items-center justify-center">
+            <Card parah="Entreprenuership safer & better from idea stage all the way to success" />
+          </div>
+          <div className="flex-1 gap-10 flex flex-col">
+            <Card parah="Angel approved" />
+            <Card parah="Comprehensive Support" />
+          </div>
+        </div>
       </div>
     </div>
   );
