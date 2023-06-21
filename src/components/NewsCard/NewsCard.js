@@ -11,6 +11,8 @@ const NewsCard = (props) => {
       }`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
+      onTouchStart={() => setHover(true)}
+      onTouchEnd={() => setHover(false)}
     >
       <div
         className={`absolute w-full h-full bg-red-400 rounded-lg -z-10  transition-all duration-300 ${

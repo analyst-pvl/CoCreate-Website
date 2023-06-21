@@ -4,6 +4,7 @@ import NavBar from "@/components/NavBar/NavBar";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import data from "../../../data/portfolio";
 import Image from "next/image";
+import { useMediaQuery } from "react-responsive";
 
 const Card = (props) => {
   return (
@@ -189,7 +190,7 @@ const Page = () => {
   const [viewData, setViewData] = useState(false);
   const middleIndex = Math.floor(data.length / 2);
   const [index, setIndex] = useState(0);
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 1024);
+  const [isDesktop, setDesktop] = useState(useMediaQuery({ minWidth: 1025 }));
 
   useLayoutEffect(() => {
     setDesktop(window.innerWidth > 1024);

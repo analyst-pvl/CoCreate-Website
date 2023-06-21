@@ -15,6 +15,8 @@ const Card = (props) => {
       }`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
+      onTouchStart={() => setHover(true)}
+      onTouchEnd={() => setHover(false)}
     >
       <div
         className={`absolute w-full h-full bg-blue-600 rounded-lg -z-10  transition-all duration-300 ${
@@ -64,8 +66,12 @@ const page = () => {
             </h1>
           </div>
           <div className="flex sm:justify-between mt-20 items-end justify-center">
-            <h2 className="text-4xl lg:text-5xl font-medium">Latest mentions</h2>
-            <p className="text-xl lg:text-2xl opacity-70 sm:block hidden">23 videos</p>
+            <h2 className="text-4xl lg:text-5xl font-medium">
+              Latest mentions
+            </h2>
+            <p className="text-xl lg:text-2xl opacity-70 sm:block hidden">
+              23 videos
+            </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-20 gap-10">
             {data.map((item, index) => (
