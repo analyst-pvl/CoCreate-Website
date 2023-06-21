@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 const ProfileDiv = (props) => {
   return (
-    <div className="flex flex-col items-center justify-start z-10">
+    <div className="flex flex-col items-center justify-start z-10 w-full">
       <Image src={props.src} height={170} width={160} alt="" />
       <p className="mt-2.5 text-2xl text-center">{props.name}</p>
       <p className="mt-2.5 text-2xl underline underline-offset-4 text-center">
@@ -59,7 +59,7 @@ const Team = () => {
               : " left-[calc(50%+55px)] top-40"
           }`}
         ></div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-20 mt-24 w-full">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-20 gap-x-10 mt-24 w-full max-w-[1000px]">
           <ProfileDiv
             src="/SureshNarsimha.png"
             name="Suresh Narsimha"

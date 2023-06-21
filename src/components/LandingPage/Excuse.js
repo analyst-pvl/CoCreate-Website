@@ -20,7 +20,7 @@ const SideImage = (props) => {
   }, [inView]);
 
   return (
-    <div className="flex justify-center lg:items-start lg:justify-center flex-1 sticky top-[110px] lg:top-0 lg:relative bg-[#D9D9D9] drop-shadow lg:drop-shadow-none">
+    <div className="flex justify-center lg:items-start lg:justify-center flex-1 sticky top-[96px] lg:top-0 -m-5 lg:m-0 lg:relative bg-[#D9D9D9] drop-shadow lg:drop-shadow-none">
       <div className="w-[400px] lg:w-[400px] sticky top-[110px]">
         <img
           className="z-10 w-[100%] contain"
@@ -81,7 +81,7 @@ const Excuse = () => {
           <div className="grid grid-cols-2 gap-10 ">
             {data.map((item, index) => (
               <div
-                className="max-w-[240px] p-5 sm:p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-lg sm:text-xl text-center lg:text-left"
+                className="max-w-[240px] p-5 sm:p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-lg sm:text-xl text-center lg:text-left mx-auto lg:mx-0"
                 onMouseEnter={() => setAns(item.ans)}
                 onMouseLeave={() => setAns("")}
                 onTouchStart={() => setAns(item.ans)}
