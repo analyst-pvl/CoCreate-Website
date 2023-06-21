@@ -93,7 +93,9 @@ const Funding = () => {
         className="container py-20 flex items-center flex-col"
         ref={inViewRef}
       >
-        <h2 className="font-bold text-4xl lg:text-5xl">Funding Upto</h2>
+        <h2 className="font-bold text-4xl lg:text-5xl" ref={inViewRef}>
+          Funding Upto
+        </h2>
         <Counter isVisible={isVisible} />
         <p className="font-semibold text-xl lg:text-2xl max-w-[550px] text-center">
           In startups with DeepTech as a differentiator created in our Venture

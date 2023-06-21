@@ -26,7 +26,9 @@ const Team = () => {
       >
         <div className="flex items-center justify-center gap-x-[10%] w-full">
           <div className="border-2 w-[10%]" />
-          <h2 className="text-5xl text-center font-medium">Meet the Team</h2>
+          <h2 className="text-4xl lg:text-5xl text-center font-medium">
+            Meet the Team
+          </h2>
           <div className="border-2 w-[10%]" />
         </div>
         <div

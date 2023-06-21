@@ -48,7 +48,7 @@ const Highlights = () => {
       <div className="container py-20 relative" ref={inViewRef}>
         <div className="flex items-center justify-center gap-x-[10%]">
           <div className="border-2 w-[10%]" />
-          <h2 className="text-5xl text-center font-medium">HighLights</h2>
+          <h2 className="text-4xl lg:text-5xl text-center font-medium">HighLights</h2>
           <div className="border-2 w-[10%]" />
         </div>
         <div className="flex gap-20 mt-20 flex-wrap">

@@ -1,7 +1,7 @@
 "use client";
 import Footer from "@/components/Footer/Footer";
 import NavBar from "@/components/NavBar/NavBar";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import data from "../../../data/portfolio";
 import Image from "next/image";
 
@@ -191,7 +191,7 @@ const Page = () => {
   const [index, setIndex] = useState(0);
   const [isDesktop, setDesktop] = useState(true);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     window.addEventListener("resize", () => {
       setDesktop(window.innerWidth > 1024);
     });

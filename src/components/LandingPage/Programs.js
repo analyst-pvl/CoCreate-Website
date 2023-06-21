@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 const Card = (props) => {
   return (
     <div className="bg-[#f1f1f0] text-black font-bold w-full">
-      <div className={`flex ${props.isVisible }`}>
+      <div className={`flex`}>
         <div className="bg-[#D6435D] flex-1 h-1" />
         <div className="bg-[#463AD4] flex-1 h-1" />
         <div className="bg-[#3EBDD9] flex-1 h-1" />

@@ -6,7 +6,7 @@ const Excuse = () => {
       <div className="container py-20 relative">
         <div className="flex items-center justify-center gap-x-[10%]">
           <div className="border-2 w-[10%] border-black" />
-          <h2 className="text-5xl text-center font-medium">
+          <h2 className="text-4xl lg:text-5xl text-center font-medium">
             What’s your Excuse to Startup?
           </h2>
           <div className="border-2 w-[10%] border-black" />
