@@ -24,7 +24,7 @@ const Card = (props) => {
           <div className="bg-[#E7B73D] flex-1 h-2" />
         </div>
       </div>
-      <div className="flex flex-col gap-5 items-center justify-center h-44 px-10">
+      <div className="flex flex-col gap-5 items-center justify-center h-48 px-10">
         {props.children}
         <p className="text-center text-black font-bold text-lg">
           {props.parah}
@@ -110,18 +110,28 @@ const BottomDiv = () => {
         }`}
       >
         <div className="flex-1 gap-10 flex flex-col items-center">
-          <Card parah="Academic flexibility & timing" isVisible={isVisible} />
-          <Card parah="Career Insurance" isVisible={isVisible} />
+          <Card parah="Academic flexibility & timing" isVisible={isVisible}>
+            <Image src="AcademicFlexibility.svg" width={52} height={52} />
+          </Card>
+          <Card parah="Career Insurance" isVisible={isVisible}>
+            <Image src="CareerInsurance.svg" width={52} height={50} />
+          </Card>
         </div>
         <div className="flex-[1.2_1.2_0%] flex items-center justify-center">
           <Card
             parah="Entreprenuership safer & better from idea stage all the way to success"
             isVisible={isVisible}
-          />
+          >
+            <Image src="EntreprenuershipSafer.svg" width={52} height={52} />
+          </Card>
         </div>
         <div className="flex-1 gap-10 flex flex-col  items-center ">
-          <Card parah="Angel approved" isVisible={isVisible} />
-          <Card parah="Comprehensive Support" isVisible={isVisible} />
+          <Card parah="Angel approved" isVisible={isVisible}>
+            <Image src="AngelApproved.svg" width={50} height={49} />
+          </Card>
+          <Card parah="Comprehensive Support" isVisible={isVisible}>
+            <Image src="ComprehensiveSupport.svg" width={52} height={52} />
+          </Card>
         </div>
       </div>
     </div>
