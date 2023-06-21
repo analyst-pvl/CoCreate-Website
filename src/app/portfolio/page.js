@@ -22,7 +22,7 @@ const Card = (props) => {
 
 const MobileView = (props) => {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    document.body.scrollTo(0, 0);
   }, []);
 
   return (
@@ -189,15 +189,15 @@ const Page = () => {
   const [viewData, setViewData] = useState(false);
   const middleIndex = Math.floor(data.length / 2);
   const [index, setIndex] = useState(0);
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 1024);
+  const [isDesktop, setDesktop] = useState(document.body.innerWidth > 1024);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 1024);
+    setDesktop(document.body.innerWidth > 1024);
   };
 
   useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
+    document.body.addEventListener("resize", updateMedia);
+    return () => document.body.removeEventListener("resize", updateMedia);
   });
 
   const showData = (id) => {
