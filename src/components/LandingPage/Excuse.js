@@ -20,8 +20,8 @@ const SideImage = (props) => {
   }, [inView]);
 
   return (
-    <div className="hidden items-start justify-center lg:flex flex-1 relative">
-      <div className="w-[480px] sticky top-[110px]">
+    <div className="flex justify-center lg:items-start lg:justify-center flex-1 sticky top-[110px] lg:top-0 lg:relative bg-[#D9D9D9] drop-shadow lg:drop-shadow-none">
+      <div className="w-[400px] lg:w-[400px] sticky top-[110px]">
         <img
           className="z-10 w-[100%] contain"
           loop={false}
@@ -40,6 +40,33 @@ const SideImage = (props) => {
 const Excuse = () => {
   const [ans, setAns] = useState("");
 
+  const data = [
+    {
+      question: "“I am not sure about the idea that I have”",
+      ans: "We are here to help",
+    },
+    {
+      question: "“I am not sure about the idea that I have”",
+      ans: "We are here to help",
+    },
+    {
+      question: "“I am not sure about the idea that I have”",
+      ans: "We are here to help",
+    },
+    {
+      question: "“I am not sure about the idea that I have”",
+      ans: "We are here to help",
+    },
+    {
+      question: "“I am not sure about the idea that I have”",
+      ans: "We are here to help",
+    },
+    {
+      question: "“I am not sure about the idea that I have”",
+      ans: "We are here to help",
+    },
+  ];
+
   return (
     <div className="flex justify-center">
       <div className="container py-20 relative">
@@ -50,50 +77,19 @@ const Excuse = () => {
           </h2>
           <div className="border-2 w-[10%] border-black" />
         </div>
-        <div className="flex justify-between pt-10 items-stretch gap-20 relative">
+        <div className="flex flex-col-reverse lg:flex-row justify-center lg:justify-between pt-10 items-stretch gap-x-20 gap-y-10 relative">
           <div className="grid grid-cols-2 gap-10 ">
-            <div
-              className="max-w-[240px] p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-xl"
-              onMouseEnter={() => setAns("We are here to help")}
-              onMouseLeave={() => setAns("")}
-            >
-              “I am not sure about the idea that I have”
-            </div>
-            <div
-              className="max-w-[240px]  p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-xl"
-              onMouseEnter={() => setAns("We are here to help")}
-              onMouseLeave={() => setAns("")}
-            >
-              “I am not sure about the idea that I have”
-            </div>
-            <div
-              className="max-w-[240px]  p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-xl"
-              onMouseEnter={() => setAns("We are here to help")}
-              onMouseLeave={() => setAns("")}
-            >
-              “I am not sure about the idea that I have”
-            </div>
-            <div
-              className="max-w-[240px]  p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-xl"
-              onMouseEnter={() => setAns("We are here to help")}
-              onMouseLeave={() => setAns("")}
-            >
-              “I am not sure about the idea that I have”
-            </div>
-            <div
-              className="max-w-[240px]  p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-xl"
-              onMouseEnter={() => setAns("We are here to help")}
-              onMouseLeave={() => setAns("")}
-            >
-              “I am not sure about the idea that I have”
-            </div>
-            <div
-              className="max-w-[240px]  p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-xl"
-              onMouseEnter={() => setAns("We are here to help")}
-              onMouseLeave={() => setAns("")}
-            >
-              “I am not sure about the idea that I have”
-            </div>
+            {data.map((item, index) => (
+              <div
+                className="max-w-[240px] p-5 sm:p-10 hover:bg-[#3BDAFF] hover:text-white rounded transition-all duration-500 text-lg sm:text-xl text-center lg:text-left"
+                onMouseEnter={() => setAns(item.ans)}
+                onMouseLeave={() => setAns("")}
+                onTouchStart={() => setAns(item.ans)}
+                onTouchEnd={() => setAns("")}
+              >
+                <p>{item.question}</p>
+              </div>
+            ))}
           </div>
           <SideImage ans={ans} />
         </div>
