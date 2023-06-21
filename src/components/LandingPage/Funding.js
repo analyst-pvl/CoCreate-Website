@@ -65,7 +65,7 @@ const Counter = (props) => {
 const Card = (props) => {
   return (
     <div
-      className={`flex-1 rounded-lg flex flex-col items-center py-10 px-20 ${props.className}`}
+      className={`flex-1 rounded-lg flex flex-col w-4/5 items-center p-10 sm:px-20 ${props.className}`}
     >
       {props.children}
       <h3 className="text-center mt-10 font-bold">{props.heading}</h3>
@@ -102,8 +102,10 @@ const Funding = () => {
           Studios
         </p>
         <div
-          className={`flex gap-10 mt-10 text-white opacity-0 flex-wrap  ${
-            isVisible && "animate-fade-in-left opacity-100"
+          className={`flex flex-col sm:flex-row items-center sm:items-stretch gap-10 mt-10 text-white sm:flex-wrap  ${
+            isVisible
+              ? "lg:animate-fade-in-left lg:opacity-100"
+              : "lg:opacity-0"
           }`}
         >
           <Card

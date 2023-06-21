@@ -5,16 +5,30 @@ import { useInView } from "react-intersection-observer";
 
 const Card = (props) => {
   return (
-    <div className="bg-[#f1f1f0] text-black font-bold w-full">
-      <div className={`flex`}>
-        <div className="bg-[#D6435D] flex-1 h-1" />
-        <div className="bg-[#463AD4] flex-1 h-1" />
-        <div className="bg-[#3EBDD9] flex-1 h-1" />
-        <div className="bg-[#E7B73D] flex-1 h-1" />
+    <div className="bg-[#f1f1f0] w-4/5  md:w-full rounded-b-lg">
+      <div className="flex justify-between">
+        <div
+          className={`transition-all delay-150 duration-1000 flex ${
+            props.isVisible ? "w-full" : "w-0"
+          }`}
+        >
+          <div className="bg-[#D6435D] flex-1 h-2" />
+          <div className="bg-[#463AD4] flex-1 h-2" />
+        </div>
+        <div
+          className={`transition-all delay-150 duration-1000 flex ${
+            props.isVisible ? "w-full" : "w-0"
+          }`}
+        >
+          <div className="bg-[#3EBDD9] flex-1 h-2" />
+          <div className="bg-[#E7B73D] flex-1 h-2" />
+        </div>
       </div>
-      <div className="flex items-center justify-center h-44 px-10">
-        {/* <Image /> */}
-        <p className="text-center">{props.parah}</p>
+      <div className="flex flex-col gap-5 items-center justify-center h-44 px-10">
+        {props.children}
+        <p className="text-center text-black font-bold text-lg">
+          {props.parah}
+        </p>
       </div>
     </div>
   );
@@ -43,16 +57,26 @@ const TopDiv = () => {
           isVisible && "opacity-100"
         }`}
       >
-        <div className="flex-1 gap-10 flex flex-col">
-          <Card parah="Brightest in academics" isVisible={isVisible} />
-          <Card parah="Legal compliance" isVisible={isVisible} />
+        <div className="flex-1 gap-10 flex flex-col items-center">
+          <Card parah="Brightest in academics" isVisible={isVisible}>
+            <Image src="BrightInAcademics.svg" width={58} height={48} />
+          </Card>
+          <Card parah="Legal compliance" isVisible={isVisible}>
+            <Image src="LegalCompliance.svg" width={52} height={49} />
+          </Card>
         </div>
         <div className="flex-[1.2_1.2_0%] flex items-center justify-center">
-          <Card parah="Teams with high energy" isVisible={isVisible} />
+          <Card parah="Teams with high energy" isVisible={isVisible}>
+            <Image src="TeamsWithHighEnergy.svg" width={85} height={51} />
+          </Card>
         </div>
-        <div className="flex-1 gap-10 flex flex-col">
-          <Card parah="Digital compliance" isVisible={isVisible} />
-          <Card parah="Brand compliance" isVisible={isVisible} />
+        <div className="flex-1 gap-10 flex flex-col items-center">
+          <Card parah="Digital compliance" isVisible={isVisible}>
+            <Image src="DigitalCompliance.svg" width={44} height={42} />
+          </Card>
+          <Card parah="Brand compliance" isVisible={isVisible}>
+            <Image src="BrandCompliance.svg" width={45} height={40} />
+          </Card>
         </div>
       </div>
     </div>
@@ -85,16 +109,19 @@ const BottomDiv = () => {
           isVisible && "opacity-100"
         }`}
       >
-        <div className="flex-1 gap-10 flex flex-col">
-          <Card parah="Academic flexibility & timing" />
-          <Card parah="Career Insurance" />
+        <div className="flex-1 gap-10 flex flex-col items-center">
+          <Card parah="Academic flexibility & timing" isVisible={isVisible} />
+          <Card parah="Career Insurance" isVisible={isVisible} />
         </div>
         <div className="flex-[1.2_1.2_0%] flex items-center justify-center">
-          <Card parah="Entreprenuership safer & better from idea stage all the way to success" />
+          <Card
+            parah="Entreprenuership safer & better from idea stage all the way to success"
+            isVisible={isVisible}
+          />
         </div>
-        <div className="flex-1 gap-10 flex flex-col">
-          <Card parah="Angel approved" />
-          <Card parah="Comprehensive Support" />
+        <div className="flex-1 gap-10 flex flex-col  items-center ">
+          <Card parah="Angel approved" isVisible={isVisible} />
+          <Card parah="Comprehensive Support" isVisible={isVisible} />
         </div>
       </div>
     </div>

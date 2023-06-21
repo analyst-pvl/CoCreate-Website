@@ -9,7 +9,7 @@ import { useMediaQuery } from "react-responsive";
 const Card = (props) => {
   return (
     <div
-      className={`${props.color} rounded-md w-full pt-[100%] relative`}
+      className={`bg-white rounded-md w-full pt-[100%] relative`}
       onMouseEnter={() => props.showData(props.index)}
       onMouseLeave={props.hideData}
       onTouchStart={() => props.showData(props.index)}
@@ -27,8 +27,8 @@ const MobileView = (props) => {
   }, []);
 
   return (
-    <div className="container py-10 min-h-screen flex items-center flex-col gap-10">
-      <div className="w-full sticky top-[94px] z-10 bg-black">
+    <div className="container py-10 min-h-screen flex items-center flex-col">
+      <div className="w-full sticky top-[94px] z-10 bg-[#1f1f1f] pb-10">
         <div
           className={`w-full h-80 flex justify-center items-center rounded-md  flex-col transition-all duration-500 p-10 gap-10 opacity-100  ${
             data[props.index].color

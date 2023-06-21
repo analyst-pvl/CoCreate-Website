@@ -2,8 +2,10 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="bg-[#2b2b2b] p-10 md:p-14 rounded flex items-center justify-center">
-      <p className="text-center">{props.parah}</p>
+    <div className="flex items-stretch justify-center rounded-e-sm">
+      <div className="w-4/5 sm:w-auto bg-[#2b2b2b] p-10 md:p-14 rounded">
+        <p className="text-center">{props.parah}</p>
+      </div>
     </div>
   );
 };
@@ -11,7 +13,7 @@ const Card = (props) => {
 const Innovation = () => {
   return (
     <div className="flex justify-center bg-[#1F1F1F] text-[#F0F0F0]">
-      <div className="container pt-20 pb-40 relative">
+      <div className="container py-20 lg:pb-40 relative">
         <div className="hidden lg:block absolute w-16 h-16 rounded-md bg-[#D6435D] top-36 left-36"></div>
         <div className="hidden lg:block absolute w-16 h-16 rounded-md bg-[#463AD4] top-36 right-36"></div>
         <div className="hidden lg:block absolute w-16 h-16 rounded-md bg-[#3EBDD9] bottom-16 left-44"></div>

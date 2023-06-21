@@ -39,7 +39,7 @@ const data = [
     title: "Fullstack Developer",
     description:
       "Developing end-to-end web applications, Creating rapid prototypes and upgrading them to full-scale applications by working collaboratively with the design and development team",
-    image: "/Fullstack.svg",
+    image: "/FullStack.svg",
     link: "",
     height: 66,
     width: 73,
