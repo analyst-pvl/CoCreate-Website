@@ -20,10 +20,10 @@ const SideImage = (props) => {
   }, [inView]);
 
   return (
-    <div className="hidden relative items-start justify-center lg:flex flex-1">
-      <div className="w-[480px] relative">
+    <div className="hidden items-start justify-center lg:flex flex-1 relative">
+      <div className="w-[480px] sticky top-[110px]">
         <img
-          className="z-10 sticky top-[110px] w-[100%] contain"
+          className="z-10 w-[100%] contain"
           loop={false}
           src={isPlaying ? "./Excuse.gif" : "./Excuse.png"}
           alt="GIF"
