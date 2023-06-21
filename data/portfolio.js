@@ -29,15 +29,16 @@ const data = [
   //   ImgWidth: 264,
   //   color: "bg-red-200",
   // },
-  // {
-  //   name: "Treasure",
-  //   description:
-  //     "A framework for building online educational businesses. Apart from running cultureplace.in we also power several online educational portals",
-  //   url: "/Treasure.png",
-  //   ImgHeight: 139,
-  //   ImgWidth: 254,
-  //   color: "bg-yellow-100",
-  // },
+   {
+     name: "Treasure",
+     description:
+       "A framework for building online educational businesses. Apart from running cultureplace.in we also power several online educational portals",
+     url: "/Treasure.png",
+     ImgHeight: 139,
+     ImgWidth: 254,
+     color: "bg-yellow-100",
+     link: "https://thetreasure.in",
+   },
 
   // {
   //   name: "TeaminUp",
@@ -127,14 +128,14 @@ const data = [
     link: "https://www.zeru.finance/",
   },
   {
-    name: "physi.fit",
+    name: "PhysiFit",
     description:
       "Computer vision enabled digital therapeutics platform accelerating patient rehabilitation",
     url: "/Physifit.png",
     ImgHeight: 50,
     ImgWidth: 205,
     color: "bg-green-100",
-    // link: "https://www.physi.fit/",
+    link: "https://www.physi.fit/",
   },
   {
     name: "Scholarit",
@@ -233,7 +234,7 @@ const data = [
     color: "bg-purple-100",
   },
   {
-    name: "bae",
+    name: "Bae",
     description:
       "A P2P short-term renting marketplace for creating more sustainable communities that group together to learn and share together",
     url: "/Bae.png",
@@ -243,7 +244,7 @@ const data = [
     link: "https://www.mybae.me/",
   },
   {
-    name: "Go local",
+    name: "GoLocal",
     description: "Community appliances for authentic & sustainable lifestyle",
     url: "/golocal.png",
     ImgHeight: 116,
