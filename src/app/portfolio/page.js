@@ -189,7 +189,7 @@ const Page = () => {
   const [viewData, setViewData] = useState(false);
   const middleIndex = Math.floor(data.length / 2);
   const [index, setIndex] = useState(0);
-  const [isDesktop, setDesktop] = useState(true);
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 1024);
 
   useLayoutEffect(() => {
     setDesktop(window.innerWidth > 1024);
@@ -197,6 +197,12 @@ const Page = () => {
     window.addEventListener("resize", () => {
       setDesktop(window.innerWidth > 1024);
     });
+
+    return () => {
+      window.removeEventListener("resize", () => {
+        setDesktop(window.innerWidth > 1024);
+      });
+    };
   });
 
   const showData = (id) => {
