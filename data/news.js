@@ -3,64 +3,37 @@ const data = [
     heading:
       "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
     date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
+    link: "https://yourstory.com/2021/06/pesu-venture-labs-deep-tech-micr-fund-studentled-startups/amp",
   },
   {
     heading:
-      "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-    date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
+      "CoCreate Ventures acquires Startupreneur's platform",
+    date: "Aug 2, 2022",
+    link: "https://techherald.in/emerging-business/startup/cocreate-ventures-acquires-startupreneurs-platform/",
   },
   {
     heading:
-      "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-    date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
+      "PESU Venture Labs to invest in 50 startups",
+    date: "June 23, 2022",
+    link: "https://yourstory.com/2022/06/startup-news-and-updates-daily-roundup-june-23-2022/amp",
   },
   {
     heading:
-      "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-    date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
+      "Seminarroom bridges industry skill gap...",
+    date: "July 29, 2022",
+    link: "https://www.thehindu.com/news/national/karnataka/introducing-new-age-teachers-to-address-an-age-old-problem/article36297249.ece",
   },
   {
     heading:
-      "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-    date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
+      "Incubation, Entrepreneurship and Seed Funding",
+    date: "Aug 1, 2022",
+    link: "https://youtu.be/JgnkhtYvGhk",
   },
   {
     heading:
-      "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-    date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
-  },
-  {
-    heading:
-      "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-    date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
-  },
-  {
-    heading:
-      "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-    date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
-  },
-  {
-    heading:
-      "This deep-tech-focused micro fund helps student-led startups build scalable businesses",
-    date: "June 21, 2021",
-    articleLink: "",
-    imageSrc: "",
+      "Introducing new-age teachers to address...",
+    date: "Sept 06, 2021",
+    link: "https://www.thehindu.com/news/national/karnataka/introducing-new-age-teachers-to-address-an-age-old-problem/article36297249.ece",
   },
 ];
 
