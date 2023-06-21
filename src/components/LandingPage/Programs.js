@@ -59,23 +59,28 @@ const TopDiv = () => {
       >
         <div className="flex-1 gap-10 flex flex-col items-center">
           <Card parah="Brightest in academics" isVisible={isVisible}>
-            <Image src="BrightInAcademics.svg" width={58} height={48} />
+            <Image src="BrightInAcademics.svg" width={58} height={48} alt="" />
           </Card>
           <Card parah="Legal compliance" isVisible={isVisible}>
-            <Image src="LegalCompliance.svg" width={52} height={49} />
+            <Image src="LegalCompliance.svg" width={52} height={49} alt="" />
           </Card>
         </div>
         <div className="flex-[1.2_1.2_0%] flex items-center justify-center">
           <Card parah="Teams with high energy" isVisible={isVisible}>
-            <Image src="TeamsWithHighEnergy.svg" width={85} height={51} />
+            <Image
+              src="TeamsWithHighEnergy.svg"
+              width={85}
+              height={51}
+              alt=""
+            />
           </Card>
         </div>
         <div className="flex-1 gap-10 flex flex-col items-center">
           <Card parah="Digital compliance" isVisible={isVisible}>
-            <Image src="DigitalCompliance.svg" width={44} height={42} />
+            <Image src="DigitalCompliance.svg" width={44} height={42} alt="" />
           </Card>
           <Card parah="Brand compliance" isVisible={isVisible}>
-            <Image src="BrandCompliance.svg" width={45} height={40} />
+            <Image src="BrandCompliance.svg" width={45} height={40} alt="" />
           </Card>
         </div>
       </div>
@@ -111,10 +116,15 @@ const BottomDiv = () => {
       >
         <div className="flex-1 gap-10 flex flex-col items-center">
           <Card parah="Academic flexibility & timing" isVisible={isVisible}>
-            <Image src="AcademicFlexibility.svg" width={52} height={52} />
+            <Image
+              src="AcademicFlexibility.svg"
+              width={52}
+              height={52}
+              alt=""
+            />
           </Card>
           <Card parah="Career Insurance" isVisible={isVisible}>
-            <Image src="CareerInsurance.svg" width={52} height={50} />
+            <Image src="CareerInsurance.svg" width={52} height={50} alt="" />
           </Card>
         </div>
         <div className="flex-[1.2_1.2_0%] flex items-center justify-center">
@@ -122,15 +132,25 @@ const BottomDiv = () => {
             parah="Entreprenuership safer & better from idea stage all the way to success"
             isVisible={isVisible}
           >
-            <Image src="EntreprenuershipSafer.svg" width={52} height={52} />
+            <Image
+              src="EntreprenuershipSafer.svg"
+              width={52}
+              height={52}
+              alt=""
+            />
           </Card>
         </div>
         <div className="flex-1 gap-10 flex flex-col  items-center ">
           <Card parah="Angel approved" isVisible={isVisible}>
-            <Image src="AngelApproved.svg" width={50} height={49} />
+            <Image src="AngelApproved.svg" width={50} height={49} alt="" />
           </Card>
           <Card parah="Comprehensive Support" isVisible={isVisible}>
-            <Image src="ComprehensiveSupport.svg" width={52} height={52} />
+            <Image
+              src="ComprehensiveSupport.svg"
+              width={52}
+              height={52}
+              alt=""
+            />
           </Card>
         </div>
       </div>
