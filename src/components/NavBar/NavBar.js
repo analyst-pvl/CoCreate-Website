@@ -86,7 +86,7 @@ const NavBar = (props) => {
             Opportunities
           </Link>
           <button
-            className="yellowButton px-5 py-4 font-medium text-[#060919] w-full rounded-none bg-white"
+            className="yellowButton px-5 py-4 font-medium text-[#060919] w-full rounded-none bg-white border-[#1E1E1F] border"
             onClick={() => {
               window.open(
                 "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=pvl&linkedin_url=xxxxx",
