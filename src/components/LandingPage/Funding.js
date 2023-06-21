@@ -78,7 +78,7 @@ const Funding = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [inViewRef, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.5,
+    threshold: 0.2,
   });
 
   useEffect(() => {

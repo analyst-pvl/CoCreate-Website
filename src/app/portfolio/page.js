@@ -192,6 +192,8 @@ const Page = () => {
   const [isDesktop, setDesktop] = useState(true);
 
   useLayoutEffect(() => {
+    setDesktop(window.innerWidth > 1024);
+
     window.addEventListener("resize", () => {
       setDesktop(window.innerWidth > 1024);
     });
