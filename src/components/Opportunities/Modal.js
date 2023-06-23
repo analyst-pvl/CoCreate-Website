@@ -19,7 +19,7 @@ const Modal = (props) => {
 
   return (
     <div className="fixed top-0 h-screen w-screen backdrop-blur-md z-50 flex items-center justify-center ">
-      <div className="w-3/4 bg-white rounded-xl max-w-[1000px] px-5 max-h-[80vh] animate-fade-in overflow-y-scroll relative overflow-hidden">
+      <div className="md:w-3/4 bg-white md:rounded-xl w-full h-full md:max-w-[1000px] md:max-h-[80vh] px-5  animate-fade-in overflow-y-scroll relative overflow-hidden">
         <div className="bg-white sticky top-0 py-5">
           <div className="flex justify-end mb-5">
             <button
