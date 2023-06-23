@@ -20,7 +20,7 @@ const NewsCard = (props) => {
         }`}
       ></div>
       <div className="h-28 bg-white rounded-lg"></div>
-      <div className="p-5 flex flex-col justify-between">
+      <div className="p-5 flex flex-col justify-between flex-1">
         <h3 className="lg:w-4/5">{props.heading}</h3>
         <div className="flex justify-between mt-10 items-end">
           <p className="font-normal text-sm">{props.date}</p>
@@ -28,6 +28,9 @@ const NewsCard = (props) => {
             className={`border border-[#3896AB] rounded text-xs text-[#3896AB] px-3 py-2 duration-300 ${
               hover && "text-white bg-[#3896AB]"
             }`}
+            onClick={() => {
+              window.open(props.link, "_blank");
+            }}
           >
             Read full article
           </button>

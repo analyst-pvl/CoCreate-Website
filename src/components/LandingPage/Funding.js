@@ -22,37 +22,37 @@ const List = (props) => {
 
 const Counter = (props) => {
   return (
-    <div id="counter" class="animated my-5">
+    <div id="counter" className="animated my-5">
       <ul
-        class={`digits digits-second opacity-0 ${
+        className={`digits digits-second opacity-0 ${
           props.isVisible && "luckie opacity-100"
         }`}
       >
         <List>$</List>
       </ul>
       <ul
-        class={`digits digits-third font-bold opacity-0 ${
+        className={`digits digits-third font-bold opacity-0 ${
           props.isVisible && "luckie opacity-100"
         }`}
       >
         <List>2</List>
       </ul>
       <ul
-        class={`digits digits-second opacity-0 ${
+        className={`digits digits-second opacity-0 ${
           props.isVisible && "luckie opacity-100"
         }`}
       >
         <List>0</List>
       </ul>
       <ul
-        class={`digits digits-third opacity-0 ${
+        className={`digits digits-third opacity-0 ${
           props.isVisible && "luckie opacity-100"
         }`}
       >
         <List>0</List>
       </ul>
       <ul
-        class={`digits digits-second opacity-0 ${
+        className={`digits digits-second opacity-0 ${
           props.isVisible && "luckie opacity-100"
         }`}
       >

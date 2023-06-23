@@ -44,6 +44,9 @@ const Card = (props) => {
             className={`border border-[#3896AB] rounded text-xs text-[#3896AB] px-3 py-2 duration-300 ${
               hover && "text-white bg-[#3896AB]"
             }`}
+            onClick={() => {
+              props.link && window.open(props.link, "_blank");
+            }}
           >
             Read full article
           </button>
@@ -80,6 +83,7 @@ const page = () => {
                 heading={item.heading}
                 date={item.date}
                 views={item.views}
+                link={item.link}
               />
             ))}
           </div>

@@ -7,6 +7,26 @@ const data = [
     link: "https://assertify.me/jobs/CoCreate/Lead%20%20-%20culture%20and%20entrepreneurship?type=2&title=Lead%20-%20Culture%20and%20entrepreneurship",
     height: 110,
     width: 42,
+    modalDescription:
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+    jobDescription: [
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+    ],
+    whoWeAreLookingFor: [
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+    ],
+    ourPreferences: [
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+    ],
   },
   {
     title: "Lead, Innovations & Solutions",
@@ -19,8 +39,7 @@ const data = [
   },
   {
     title: "Lead, Entrepreneurial Communities",
-    description:
-      "Building communities of innovators and entrepreneurs",
+    description: "Building communities of innovators and entrepreneurs",
     image: "/CyberSecurity.svg",
     link: "https://assertify.me/jobs/CoCreate/Community%20manager?type=2&title=Community%20Manager",
     height: 70,
@@ -37,8 +56,7 @@ const data = [
   },
   {
     title: "Lead, Content & Social Engagements",
-    description:
-      "Create Viral and rich content pieces and strategies",
+    description: "Create Viral and rich content pieces and strategies",
     image: "/CyberSecurity.svg",
     link: "https://assertify.me/jobs/CoCreate/Content%20Writing%20-%20General?type=2&title=Content%20Writer",
     height: 70,
