@@ -20,8 +20,7 @@ const Innovation = () => {
         <div className="hidden lg:block absolute w-16 h-16 rounded-md bg-[#E7B73D] bottom-16 right-44"></div>
         <div className="flex items-center justify-center">
           <h2 className="text-4xl lg:text-5xl text-center  font-medium lg:w-3/5">
-            This is a great synergy between needs of corporates & mission of
-            CoCreate
+            Engineering Innovations on campus to fuel the growth of Corporates & Venture ecosystem
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-[3%] mt-20">
