@@ -68,7 +68,7 @@ const Card = (props) => {
       className={`flex-1 rounded-lg flex flex-col w-4/5 items-center p-10 sm:px-20 ${props.className}`}
     >
       {props.children}
-      <h3 className="text-center mt-10 font-bold">{props.heading}</h3>
+      <h3 className="text-center mt-20 font-bold">{props.heading}</h3>
       <p className="text-center mt-5 font-semibold">{props.parah}</p>
     </div>
   );
@@ -111,7 +111,7 @@ const Funding = () => {
         >
           <Card
             heading="Idea Stage"
-            parah="Reduced time to Market"
+            parah=""
             className="bg-[#3EBDD9]"
           >
             <Image
@@ -124,7 +124,7 @@ const Funding = () => {
           </Card>
           <Card
             heading="Incubation+accelaration"
-            parah="Quicker pivots to determina the right Product Market Fit"
+            parah=""
             className="bg-[#D6435D]"
           >
             <Image
@@ -137,7 +137,7 @@ const Funding = () => {
           </Card>
           <Card
             heading="Mentoring & handholding"
-            parah="Founder friendly terms (No LP, dragalong, tagalong, no special rights"
+            parah=""
             className="bg-[#463BD5]"
           >
             <Image
