@@ -8,24 +8,25 @@ const data = [
     height: 110,
     width: 42,
     modalDescription:
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Responsible for an environment that energizes innovators across on campuses to passionately work together in building amazing things for the society",
     jobDescription: [
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Person recruited will create culture, process & practices to create entrepreneurial & innovative culture on campus",
+      "Counsels, mentors & helps students to stay on the path of entrepreneurship",
+      "Makes students on the campus wanting to be an entrepreneur by creating right environment, programs & incentives",
+      "Creates programs & policies to build discipline & work ethics amongst entrepreneurs by constantly motivating and bringing right mentors",
     ],
     whoWeAreLookingFor: [
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "A strong peoples person with research bent of mind",
+      "Experience in creating culture & organizations",
+      "Experience in hiring from campus, working with students & counselling youngsters",
+      "Some one who understands aspirations of the youngsters & works with the management to get the things done",
     ],
     ourPreferences: [
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
-      "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
+      "Experience in non profits",
+      "Passion for innovation, experimentation",
+      "Deep understanding of trends, startup culture",
+      "Entrepreneurial, wanting to startup",
+      "Exposure to design thinking, corporate innovation",
     ],
   },
   {
@@ -36,6 +37,26 @@ const data = [
     link: "https://assertify.me/jobs/CoCreate/Solutions%20Lead?type=2&title=Solutions%20Lead",
     height: 70,
     width: 70,
+    modalDescription:
+      "Lead our practices around corporate innovation, University solutions & Enterprise solutions",
+    jobDescription: [
+      "Engage with our premium customers to identify opportunities, problem statements, gaps & challenges in respective domains. Person further Works with the team to conceptualize right solutions, propositions  & commercial models",
+      "Responsible for taking the proposition to custoMers & work with the entrepreneurs/ team to sign the contract",
+      "Define strategies to build a strong brand & interest within the target market",
+      "Position is based in Bengaluru and requires person to spend substantial time in the office as the same involves integration with multiple startups",
+    ],
+    whoWeAreLookingFor: [
+      "< 30 years of age with experience in product management / solution presales",
+      "Proven experience in presentations, proposals & submitting RFP's",
+      "Strong work ethics, Hardworking, Attention to detail & Documentation",
+    ],
+    ourPreferences: [
+      "Females are preferred",
+      "Experience in Startups & consultative solution sales",
+      "Passion for innovation, solving customer problem",
+      "Deep understanding of technology trends",
+      "Entrepreneurial, wanting to startup",
+    ],
   },
   {
     title: "Lead, Entrepreneurial Communities",
@@ -44,6 +65,26 @@ const data = [
     link: "https://assertify.me/jobs/CoCreate/Community%20manager?type=2&title=Community%20Manager",
     height: 70,
     width: 70,
+    modalDescription:
+      "Building & enabling community of startup enthusiasts across the campuses",
+    jobDescription: [
+      "Builds & mentors a community of volunteers across campuses",
+      "Markets & organizes our flagship programs across the campuses in both offline & online",
+      "Manages events & programs with our corporate partners",
+      "Actively engages students & innovators through programs & communication",
+    ],
+    whoWeAreLookingFor: [
+      "2-5 years of experience in creating/managing communities around brands",
+      "Experience in Planning, executing & hosting events",
+      "A hands-on person with strong work ethics & Passion for the work",
+      "Go-getter, easy to go and speak to people, extremely good with people",
+    ],
+    ourPreferences: [
+      "Experience in working with campuses / startups/ B2B brands",
+      "Experience in nonprofits",
+      "Passion for learning, marketing & aesthetics",
+      "Entrepreneurial wanting to startup",
+    ],
   },
   {
     title: "Lead, Digital Growth Hacking",
@@ -53,6 +94,24 @@ const data = [
     link: "https://assertify.me/jobs/CoCreate/Digital%20Marketing?type=2&title=Digital%20Marketing%20Officer",
     height: 70,
     width: 70,
+    modalDescription:
+      "Enable deep-tech startups to embrace growth through digital channels",
+    jobDescription: [
+      "Responsible for digital performance campaigns & viral campaigns for each of the startups",
+      "Generates strong ideas and works with team to generate creatives",
+      "Regularly reports the progress & works with management to plan the strategies & finetune plans on a continuous basis",
+      ],
+    whoWeAreLookingFor: [
+      "We are open to freelancers/consultants though we prefer full time employees based out of office",
+      "3+ years of experience in creating/managing digital campaigns for multiple brands",
+      "Experience in SEO, adwords, email marketing and market places",
+      "Experience in an agency/ company with experience in managing multiple products",
+    ],
+    ourPreferences: [
+      "Experience in working with B2B brands",
+      "Passion for exploring new ideas focus on brand building & aesthetics",
+      "Entrepreneurial, wanting to startup",
+    ],
   },
   {
     title: "Lead, Content & Social Engagements",
@@ -61,6 +120,23 @@ const data = [
     link: "https://assertify.me/jobs/CoCreate/Content%20Writing%20-%20General?type=2&title=Content%20Writer",
     height: 70,
     width: 70,
+    modalDescription:
+      "Enable our startups to building great content & social presence",
+    jobDescription: [
+      "Oversee social media/ communication strategies for multiple startups",
+      "Constantly ideates & ensures great quality visuals for social ensuring right brand positioning",
+      "Incorporates Generative AI & other platforms for marketing functions across the startups",
+      "Manages website content, whitepapers & brochures in collaboration with creative team",
+      ],
+    whoWeAreLookingFor: [
+      "Open for part timer or a freelancer based in Bengaluru",
+      "Experience in creating/managing marketing communication for multiple brands",
+      "Experience in Planning, executing media campaigns with keen eyes for quality, aesthetics & planning",
+    ],
+    ourPreferences: [
+      "Prefer females with experience in working with agencies handling multiple brands",
+      "Entrepreneurial, wanting to startup",
+    ],
   },
   {
     title: "Investor Outreach Head",
