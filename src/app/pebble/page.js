@@ -23,7 +23,11 @@ const Card = (props) => {
           hover && "rotate-3"
         }`}
       ></div>
-      <div className="h-28 bg-white rounded-lg"></div>
+      <img
+        className="h-28 bg-white rounded-lg object-center"
+        src={props.src}
+      ></img>
+
       <div className="p-5 flex flex-col justify-between flex-1">
         <div>
           <h3 className="lg:w-4/5">{props.heading}</h3>
@@ -84,6 +88,7 @@ const page = () => {
                 date={item.date}
                 views={item.views}
                 link={item.link}
+                src={item.image}
               />
             ))}
           </div>
