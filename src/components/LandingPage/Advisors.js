@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import ProfileDiv from "./ProfileDiv";
-import data from "../../../data/Team";
+import data from "../../../data/Advisors";
 
-const Team = () => {
+const Advisors = () => {
   const [hover, setHover] = useState(false);
 
   return (
@@ -16,7 +16,7 @@ const Team = () => {
         <div className="flex items-center justify-center gap-x-[10%] w-full">
           <div className="border-2 w-[10%]" />
           <h2 className="text-4xl lg:text-5xl text-center font-medium">
-            Meet the Team
+            Advisors
           </h2>
           <div className="border-2 w-[10%]" />
         </div>
@@ -30,7 +30,7 @@ const Team = () => {
         <div
           className={`bg-[#463AD4] w-10 h-2 rounded absolute transition-all duration-300 hidden lg:block ${
             hover
-              ? "w-32 min-h-[128px] top-[calc(100%-200px)] left-[calc(0%-40px)] rotate-45"
+              ? "w-32 min-h-[128px] top-40 left-[calc(0%-40px)] rotate-45"
               : "left-[calc(50%-45px)]  top-40"
           }`}
         ></div>
@@ -44,7 +44,7 @@ const Team = () => {
         <div
           className={`bg-[#E7B73D] rounded w-10 h-2 absolute transition-all duration-300 hidden lg:block ${
             hover
-              ? "w-32 min-h-[128px] top-[calc(100%-400px)] left-[calc(100%-20px)] rotate-45"
+              ? "w-32 min-h-[128px] top-80 left-[calc(100%-20px)] rotate-45"
               : " left-[calc(50%+55px)] top-40"
           }`}
         ></div>
@@ -63,4 +63,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Advisors;

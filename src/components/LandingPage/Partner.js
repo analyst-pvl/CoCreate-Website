@@ -20,8 +20,17 @@ const Partner = () => {
       <div className="container py-20 relative" ref={inViewRef}>
         <div className="flex items-center justify-center gap-x-[10%]">
           <div className="border-2 w-[10%] border-black" />
-          <h2 className="text-4xl lg:text-5xl text-center font-medium">Partner with Us</h2>
+          <h2 className="text-4xl lg:text-5xl text-center font-medium">
+            Partner with Us
+          </h2>
           <div className="border-2 w-[10%] border-black" />
+        </div>
+        <div className="flex items-center justify-center">
+          <h3 className="text-xl font-semibold text-center mt-10 w-[50ch]">
+            Join hands with us & enjoy the benefits of being part of this
+            innovative ecosystem. Write to us & we will be happy to share our
+            thoughts in terms of what in it for you
+          </h3>
         </div>
         <div
           className={`grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-20 gap-20 opacity-0  ${

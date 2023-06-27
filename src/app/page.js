@@ -10,6 +10,8 @@ import Partner from "@/components/LandingPage/Partner";
 import Hero from "@/components/LandingPage/Hero";
 import Excuse from "@/components/LandingPage/Excuse";
 import Programs from "@/components/LandingPage/Programs";
+import Advisors from "@/components/LandingPage/Advisors";
+import Entrepreneurs from "@/components/LandingPage/Entrepreneurs";
 
 const page = () => {
   return (
@@ -23,6 +25,8 @@ const page = () => {
       <Programs />
       <Partner />
       <Team />
+      <Advisors />
+      <Entrepreneurs />
       <MediaMentions />
       <Footer />
     </>

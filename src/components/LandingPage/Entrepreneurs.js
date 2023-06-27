@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import ProfileDiv from "./ProfileDiv";
-import data from "../../../data/Team";
+import data from "../../../data/Entrepreneurs";
 
-const Team = () => {
+const Entrepreneurs = () => {
   const [hover, setHover] = useState(false);
 
   return (
@@ -16,7 +16,7 @@ const Team = () => {
         <div className="flex items-center justify-center gap-x-[10%] w-full">
           <div className="border-2 w-[10%]" />
           <h2 className="text-4xl lg:text-5xl text-center font-medium">
-            Meet the Team
+            Entrepreneurs and Team
           </h2>
           <div className="border-2 w-[10%]" />
         </div>
@@ -63,4 +63,4 @@ const Team = () => {
   );
 };
 
-export default Team;
+export default Entrepreneurs;
