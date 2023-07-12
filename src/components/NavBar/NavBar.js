@@ -89,7 +89,7 @@ const NavBar = (props) => {
             className="yellowButton px-5 py-4 font-medium text-[#060919] w-full rounded-none bg-white border-[#1E1E1F] border"
             onClick={() => {
               window.open(
-                "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=pvl&linkedin_url=xxxxx",
+                "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=cocreate&linkedin_url=xxxxx",
                 "_blank"
               );
             }}
