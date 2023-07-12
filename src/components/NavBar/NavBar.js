@@ -22,7 +22,15 @@ const NavBar = (props) => {
             <Link href="/news">News</Link>
             <Link href="/portfolio">Portfolio</Link>
             <Link href="/opportunities">Opportunities</Link>
-            <button className="bg-[#3BDAFF] text-black py-4 px-6 rounded-lg font-medium">
+            <button
+              className="bg-[#3BDAFF] text-black py-4 px-6 rounded-lg font-medium"
+              onClick={() => {
+                window.open(
+                  "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=pvl&linkedin_url=xxxxx",
+                  "_blank"
+                );
+              }}
+            >
               Apply Now
             </button>
           </div>
