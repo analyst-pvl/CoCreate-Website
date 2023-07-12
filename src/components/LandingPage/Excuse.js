@@ -42,28 +42,36 @@ const Excuse = () => {
 
   const data = [
     {
-      question: "“I am not sure about the idea that I have”",
-      ans: "We are here to help",
+      question: "“I don't have/ not sure about the idea I have”",
+      ans: "We organise programs to ideate better as well as have initiatives for you to pick ideas that we have identified",
     },
     {
-      question: "“I am not sure about the idea that I have”",
-      ans: "We are here to help",
+      question: "“I want to gain experience in a good company”",
+      ans: "Come intern with our portfolio companies and work with deep-tech to solve interesting problems, mentored by the best from the industry",
     },
     {
-      question: "“I am not sure about the idea that I have”",
-      ans: "We are here to help",
+      question: "“I need financial support”",
+      ans: "Build your ideas with us, with support and funding upto a value of $150k",
     },
     {
-      question: "“I am not sure about the idea that I have”",
-      ans: "We are here to help",
+      question: "“I dont have a team & dont know how to build it”",
+      ans: "Our model ensures we help you to build your team, as well as get the right people to guide and participate in building your idea",
     },
     {
-      question: "“I am not sure about the idea that I have”",
-      ans: "We are here to help",
+      question: "“I have loans/ bill to pay”",
+      ans: "With a relatively short launch time from your idea to market, ensure you are financially secure",
     },
     {
-      question: "“I am not sure about the idea that I have”",
-      ans: "We are here to help",
+      question: "“I have to do my Masters”",
+      ans: "As an entrepreneur/enabler with us, you get an opporuntity to do an Integrated Masters Program from top institutions across the world",
+    },
+    {
+      question: "“I don't want my academics to be affected”",
+      ans: "Working with us will not only motivate you to perform better in coursework, but we also work with institutions to lessen the burden on student entrepreneurs",
+    },
+    {
+      question: "“Who will invest in my idea”",
+      ans: "Investments will come in through our Fund, with interest from other Investors for future rounds along with participation initially",
     },
   ];
 

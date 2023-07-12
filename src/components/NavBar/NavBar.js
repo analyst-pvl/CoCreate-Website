@@ -17,8 +17,8 @@ const NavBar = (props) => {
             <Logo />
           </Link>
           <div className="italic items-center gap-10 hidden md:flex">
-            <Link href="/pebble">Pebble</Link>
-            {/* <Link href="/venture-studio">Venture Studio</Link> */}
+            {/* <Link href="/pebble">Pebble</Link> */}
+            <Link href="/venture-studio">Venture Studio</Link>
             <Link href="/news">News</Link>
             <Link href="/portfolio">Portfolio</Link>
             <Link href="/opportunities">Opportunities</Link>
@@ -97,7 +97,7 @@ const NavBar = (props) => {
             className="yellowButton px-5 py-4 font-medium text-[#060919] w-full rounded-none bg-white border-[#1E1E1F] border"
             onClick={() => {
               window.open(
-                "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=pvl&linkedin_url=xxxxx",
+                "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=cocreate&linkedin_url=xxxxx",
                 "_blank"
               );
             }}
