@@ -26,7 +26,7 @@ const NavBar = (props) => {
               className="bg-[#3BDAFF] text-black py-4 px-6 rounded-lg font-medium"
               onClick={() => {
                 window.open(
-                  "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=pvl&linkedin_url=xxxxx",
+                  "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=cocreate&linkedin_url=xxxxx",
                   "_blank"
                 );
               }}
