@@ -17,8 +17,8 @@ const NavBar = (props) => {
             <Logo />
           </Link>
           <div className="italic items-center gap-10 hidden md:flex">
-            {/* <Link href="/pebble">Pebble</Link> */}
-            <Link href="/venture-studio">Venture Studio</Link>
+            <Link href="/pebble">Pebble</Link>
+            {/* <Link href="/venture-studio">Venture Studio</Link> */}
             <Link href="/news">News</Link>
             <Link href="/portfolio">Portfolio</Link>
             <Link href="/opportunities">Opportunities</Link>

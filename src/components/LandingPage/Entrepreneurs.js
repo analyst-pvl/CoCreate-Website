@@ -16,7 +16,7 @@ const Entrepreneurs = () => {
         <div className="flex items-center justify-center gap-x-[10%] w-full">
           <div className="border-2 w-[10%]" />
           <h2 className="text-4xl lg:text-5xl text-center font-medium">
-            Entrepreneurs and Team
+            Entrepreneurs and Team
           </h2>
           <div className="border-2 w-[10%]" />
         </div>
