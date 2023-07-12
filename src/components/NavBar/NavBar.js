@@ -17,8 +17,8 @@ const NavBar = (props) => {
             <Logo />
           </Link>
           <div className="italic items-center gap-10 hidden md:flex">
-            <Link href="/pebble">Pebble</Link>
-            {/* <Link href="/venture-studio">Venture Studio</Link> */}
+            {/* <Link href="/pebble">Pebble</Link> */}
+            <Link href="/venture-studio">Venture Studio</Link>
             <Link href="/news">News</Link>
             <Link href="/portfolio">Portfolio</Link>
             <Link href="/opportunities">Opportunities</Link>
@@ -68,13 +68,13 @@ const NavBar = (props) => {
         <div
           className={`flex flex-col text-white items-center justify-center md:hidden bg-[#1E1E1F]`}
         >
-          <Link
+          {/* <Link
             href="/pebble"
             className="cursor-pointer px-5 py-4 w-full text-center"
           >
             Pebble
-          </Link>
-          {/* <Link href="/venture-studio">Venture Studio</Link> */}
+          </Link> */}
+          <Link href="/venture-studio">Venture Studio</Link>
           <Link
             href="/news"
             className="cursor-pointer px-5 py-4 w-full text-center"
