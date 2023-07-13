@@ -8,10 +8,12 @@ const Card = (props) => {
     <div className="border-2 border-[#2c2c2c] p-10 relative overflow-hidden flex items-center flex-col rounded-[20px]">
       {props.children}
       <Image height={127} width={127} src={props.image} />
-      <h3 className="text-center text-[#0E0E0E] font-bold text-[28px] mt-5">
+      <h3 className="text-center text-[#0E0E0E] font-bold text-xl lg:text-[28px] mt-5">
         {props.title}
       </h3>
-      <p className="text-center text-[#0E0E0E] text-base mt-5">{props.parah}</p>
+      <p className="text-center text-[#0E0E0E] text-sm lg:text-base mt-5">
+        {props.parah}
+      </p>
     </div>
   );
 };
@@ -31,7 +33,7 @@ const Provide = () => {
         <div className="rounded-sm bg-[#D16F37] h-40 w-28 shadow-black shadow-md"></div>
         <div className="rounded-sm bg-[#D16F37] h-14 w-14 shadow-black shadow-md relative -right-28"></div>
       </div>
-      <div className="container py-36">
+      <div className="container py-20 lg:py-36">
         <div className="flex items-center justify-center gap-x-[10%]">
           <div className="border-2 w-[10%] border-black" />
           <h2 className="text-4xl lg:text-5xl text-center font-medium">

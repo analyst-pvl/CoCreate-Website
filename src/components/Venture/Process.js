@@ -8,10 +8,10 @@ const Pointer = (props) => {
         props.index != "04" && "border-b-2"
       } border-[#9F9F9F] max-w-[460px]`}
     >
-      <p className="font-bold text-6xl">{props.index}</p>
+      <p className="font-bold text-5xl lg:text-6xl">{props.index}</p>
       <div>
-        <h4 className="font-bold text-[28px]">{props.title}</h4>
-        <p>{props.parah}</p>
+        <h4 className="font-bold text-xl lg:text-[28px]">{props.title}</h4>
+        <p className="text-lg lg:text-2xl">{props.parah}</p>
       </div>
     </div>
   );
@@ -48,7 +48,7 @@ const Process = () => {
         src="/ProcessHead.png"
         width={1816}
         height={210}
-        className="w-full max-w-[1800] pt-24 px-10"
+        className="w-full max-w-[1800] pt-24 px-5 lg:px-10"
       ></Image>
       <div className="container py-20 relative flex items-center flex-col">
         <div className="flex items-center justify-center gap-x-[10%] w-full">
