@@ -41,9 +41,12 @@ const MailUs = () => {
           Don’t worry! Unique talents are always appreciated here at PVL! Feel
           free to reach out to us via mail!
         </p>
-        <button className="border border-white  py-3 px-12 rounded-lg hover:bg-white hover:text-black">
+        <a
+          className="border border-white  py-3 px-12 rounded-lg hover:bg-white hover:text-black"
+          href="mailto:analyst@cocreate.ventures"
+        >
           Mail Us
-        </button>
+        </a>
       </div>
     </div>
   );
