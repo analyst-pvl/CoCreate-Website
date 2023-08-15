@@ -1,10 +1,39 @@
 const data = [
   {
+    title: "Innovation Evangelist",
+    description:
+      "Delivering programs of CoCreate across Universities & Corporates",
+    image: "/LeadPartner.svg",
+    link: "https://forms.gle/hi765MfytjPVyZZXA",
+    height: 110,
+    width: 42,
+    modalDescription:
+      "Responsible for an environment that energizes innovators across on campuses to passionately work together in building amazing things for the society",
+    jobDescription: [
+      "Delivery of programs around innovation & entrepreneurship across the universities & corporates",
+      "Executing programs based on the defined content & objectives to achieve share holder delight",
+      "Responsible for coordinating with entrepreneurs & other resource personnel required for delivering the program",
+      "Initiating necessary marketing activities before & after the program",
+      "Full time position that will require constant travelling across India",
+    ],
+    whoWeAreLookingFor: [
+      "<35 years of age with experience in training & consultation programs",
+      "Strong work ethics, Hardworking, Attention to detail & Documentation",
+      "Go-getter, Extroverted, extremely good with people",
+      "Proven public speaking & croud engagement skills",
+    ],
+    ourPreferences: [
+      "Hands on trainer, experience in marketing & selling training program",
+      "Exposure to students & universities",
+      "Passion for innovation, education",
+    ],
+  },
+  {
     title: "Lead, Entrepreneurial culture",
     description:
       "Creating the right environment in motivating bright youngsters in joining hands to build amazing innovations for the world",
     image: "/LeadPartner.svg",
-    link: "https://assertify.me/jobs/CoCreate/Lead%20%20-%20culture%20and%20entrepreneurship?type=2&title=Lead%20-%20Culture%20and%20entrepreneurship",
+    link: "https://forms.gle/hi765MfytjPVyZZXA",
     height: 110,
     width: 42,
     modalDescription:
@@ -34,7 +63,7 @@ const data = [
     description:
       "Convert innovative technologies into product and commercial propositions",
     image: "/CyberSecurity.svg",
-    link: "https://assertify.me/jobs/CoCreate/Solutions%20Lead?type=2&title=Solutions%20Lead",
+    link: "https://forms.gle/hi765MfytjPVyZZXA",
     height: 70,
     width: 70,
     modalDescription:
@@ -62,7 +91,7 @@ const data = [
     title: "Lead, Entrepreneurial Communities",
     description: "Building communities of innovators and entrepreneurs",
     image: "/CyberSecurity.svg",
-    link: "https://assertify.me/jobs/CoCreate/Community%20manager?type=2&title=Community%20Manager",
+    link: "https://forms.gle/hi765MfytjPVyZZXA",
     height: 70,
     width: 70,
     modalDescription:
@@ -91,7 +120,7 @@ const data = [
     description:
       "Establishing an end-to-end leads process and guiding the implementation and execution across multiple social media platforms",
     image: "/CyberSecurity.svg",
-    link: "https://assertify.me/jobs/CoCreate/Digital%20Marketing?type=2&title=Digital%20Marketing%20Officer",
+    link: "https://forms.gle/hi765MfytjPVyZZXA",
     height: 70,
     width: 70,
     modalDescription:
@@ -117,7 +146,7 @@ const data = [
     title: "Lead, Content & Social Engagements",
     description: "Create Viral and rich content pieces and strategies",
     image: "/CyberSecurity.svg",
-    link: "https://assertify.me/jobs/CoCreate/Content%20Writing%20-%20General?type=2&title=Content%20Writer",
+    link: "https://forms.gle/hi765MfytjPVyZZXA",
     height: 70,
     width: 70,
     modalDescription:
@@ -143,7 +172,7 @@ const data = [
     description:
       "Connecting with Investors, VCs, Angel Networks and Funds to invest with and in CoCreate",
     image: "/CyberSecurity.svg",
-    link: "https://assertify.me/jobs/CoCreate/Investor%20Outreach%20Head%20for%20venture%20studios?type=2&title=Investor%20Outreach%20Head",
+    link: "https://forms.gle/hi765MfytjPVyZZXA",
     height: 70,
     width: 70,
   },
@@ -192,15 +221,15 @@ const data = [
     height: 70,
     width: 70,
   },
-  {
-    title: "PR and Outreach Executive",
-    description:
-      "Accomplishing crucial coverage for portfolio companies and working to enhance media presence of CoCreate in an innovative manner.",
-    image: "/PR.svg",
-    link: "https://assertify.me/jobs/CoCreate/PR%20Outreach?type=2&title=PR%20and%20Outreach%20Executive",
-    height: 70,
-    width: 70,
-  },
+  // {
+  //   title: "PR and Outreach Executive",
+  //   description:
+  //     "Accomplishing crucial coverage for portfolio companies and working to enhance media presence of CoCreate in an innovative manner.",
+  //   image: "/PR.svg",
+  //   link: "https://assertify.me/jobs/CoCreate/PR%20Outreach?type=2&title=PR%20and%20Outreach%20Executive",
+  //   height: 70,
+  //   width: 70,
+  // },
   {
     title: "Digital Marketing Executive",
     description:
