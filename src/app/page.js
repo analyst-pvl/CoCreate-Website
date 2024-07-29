@@ -24,9 +24,9 @@ const page = () => {
       <Excuse />
       <Programs />
       <Partner />
-      <Team />
+      {/* <Team />
       <Advisors />
-      <Entrepreneurs />
+      <Entrepreneurs /> */}
       <MediaMentions />
       <Footer />
     </>
