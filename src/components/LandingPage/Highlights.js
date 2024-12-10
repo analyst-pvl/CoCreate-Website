@@ -53,7 +53,7 @@ const Highlights = () => {
         </div>
         <div className="flex gap-20 mt-20 flex-wrap">
           <Card
-            parah="Startups with deep-tech as a differentiator launched in 12 months"
+            parah="Projects completed with top tech firms, funds and governments"
             className="blue-gradient"
             highlight="40+"
             isVisible={isVisible}
@@ -65,7 +65,7 @@ const Highlights = () => {
             isVisible={isVisible}
           />
           <Card
-            parah="20+ student entrepreneurs that includes 7 female founders building 12 amazing campus startups"
+            parah="Contracts awarded over the past 2 years"
             className="orange-gradient"
             highlight="20+"
             isVisible={isVisible}

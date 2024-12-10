@@ -38,12 +38,23 @@ const Hero = () => {
           className="bg-[#F0F0F0] text-black mt-7 font-semibold py-2 px-8 rounded hover:bg-gradient-to-r hover:from-sky-500 hover:to-emerald-500 to-90%"
           onClick={() => {
             window.open(
-                "https://6inc.typeform.com/idea-submission#name=xxxxx&email=xxxxx&source=cocreate&linkedin_url=xxxxx",
+                "https://www.createoncampus.org/",
               "_blank"
             );
           }}
         >
-          Apply Now
+          Foundation
+        </button>
+        <button
+          className="bg-[#F0F0F0] text-black mt-7 font-semibold py-2 px-8 rounded hover:bg-gradient-to-r hover:from-sky-500 hover:to-emerald-500 to-90%"
+          onClick={() => {
+            window.open(
+                "https://www.arambh.vc/",
+              "_blank"
+            );
+          }}
+        >
+          Fund
         </button>
         <img src="/hero2.gif" className="w-56 mt-10" />
       </div>

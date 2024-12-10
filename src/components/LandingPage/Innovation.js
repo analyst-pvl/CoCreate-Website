@@ -20,16 +20,16 @@ const Innovation = () => {
         <div className="hidden lg:block absolute w-16 h-16 rounded-md bg-[#E7B73D] bottom-16 right-44"></div>
         <div className="flex items-center justify-center">
           <h2 className="text-4xl lg:text-5xl text-center  font-medium lg:w-3/5">
-            Engineering Innovations on campus to fuel the growth of Corporates & Venture ecosystem
+            Innovation VS Outsourcing
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-[3%] mt-20">
-          <Card parah="A pipeline for deeptech innovation that comes from brightest minds across the country" />
-          <Card parah="Participate in collaborative solutioning with our digital platforms and engagements" />
-          <Card parah="Lower the cost & risk of venture participation with rights & visibility" />
-          <Card parah="Get entrepreneurial talent with proven track record of innovation & ownership" />
-          <Card parah="Pace & scale the investment in innovation with the results" />
-          <Card parah="Reduce front loading of infrastructure & resource costs & scale the efforts based on results" />
+          <Card parah="Innovation fuels long-term growth by driving unique, transformative business solutions" />
+          <Card parah="It enables the creation of customised technologies that fit specific organisational needs" />
+          <Card parah="Attracts and retains top tech talent that is ever eager to solve challenging problems" />
+          <Card parah="Empowers organisations in adapating quickly to emerging market trends and technologies" />
+          <Card parah="Fosters competivite advantages by embracing cutting edge advancements in deep innovation" />
+          <Card parah="Promotes a culture of continuous learning and in-house technological expertise development" />
         </div>
       </div>
     </div>

@@ -50,7 +50,7 @@ const TopDiv = () => {
   return (
     <div ref={inViewRef}>
       <h2 className="text-center font-semibold text-3xl lg:text-4xl">
-        CoCreate companies are clearly different
+        Our Methodology
       </h2>
       <div
         className={`flex py-10 gap-x-10 flex-col md:flex-row gap-y-10 opacity-0 transition-all duration-500 ${
@@ -58,15 +58,15 @@ const TopDiv = () => {
         }`}
       >
         <div className="flex-1 gap-10 flex flex-col items-center">
-          <Card parah="Brightest in academics" isVisible={isVisible}>
+          <Card parah="Early stage VC advantage" isVisible={isVisible}>
             <Image src="BrightInAcademics.svg" width={58} height={48} alt="" />
           </Card>
-          <Card parah="Legal compliance" isVisible={isVisible}>
+          <Card parah="Thought leadership with target customers" isVisible={isVisible}>
             <Image src="LegalCompliance.svg" width={52} height={49} alt="" />
           </Card>
         </div>
         <div className="flex-[1.2_1.2_0%] flex items-center justify-center">
-          <Card parah="Teams with high energy" isVisible={isVisible}>
+          <Card parah="Top talent at your fingertips" isVisible={isVisible}>
             <Image
               src="TeamsWithHighEnergy.svg"
               width={85}
@@ -75,14 +75,14 @@ const TopDiv = () => {
             />
           </Card>
         </div>
-        <div className="flex-1 gap-10 flex flex-col items-center">
-          <Card parah="Digital compliance" isVisible={isVisible}>
+        {/* <div className="flex-1 gap-10 flex flex-col items-center">
+          <Card parah="10x Better value for your budget" isVisible={isVisible}>
             <Image src="DigitalCompliance.svg" width={44} height={42} alt="" />
           </Card>
-          <Card parah="Brand compliance" isVisible={isVisible}>
+          <Card parah="Flexible models to partner, invest or license" isVisible={isVisible}>
             <Image src="BrandCompliance.svg" width={45} height={40} alt="" />
           </Card>
-        </div>
+        </div> */}
       </div>
     </div>
   );

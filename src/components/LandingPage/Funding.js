@@ -93,14 +93,14 @@ const Funding = () => {
         className="container py-20 flex items-center flex-col"
         ref={inViewRef}
       >
-        <h2 className="font-bold text-4xl lg:text-5xl">Funding Upto</h2>
-        <Counter isVisible={isVisible} />
+        <h2 className="font-bold text-4xl lg:text-5xl">Our Partners</h2>
+        {/* <Counter isVisible={isVisible} /> */}
         <p
           className="font-semibold text-xl lg:text-2xl max-w-[550px] text-center"
           ref={inViewRef}
         >
-          In startups with DeepTech as a differentiator created in our Venture
-          Studios
+          {/* In startups with DeepTech as a differentiator created in our Venture */}
+          {/* Studios  */}
         </p>
         <div
           className={`flex flex-col sm:flex-row items-center sm:items-stretch gap-10 mt-10 text-white sm:flex-wrap  ${
@@ -110,7 +110,7 @@ const Funding = () => {
           }`}
         >
           <Card
-            heading="Idea Stage"
+            heading="Corporates"
             parah=""
             className="bg-[#3EBDD9]"
           >
@@ -123,7 +123,7 @@ const Funding = () => {
             />
           </Card>
           <Card
-            heading="Incubation+accelaration"
+            heading="GCCs"
             parah=""
             className="bg-[#D6435D]"
           >
@@ -136,7 +136,7 @@ const Funding = () => {
             />
           </Card>
           <Card
-            heading="Mentoring & handholding"
+            heading="Entrepreneurs"
             parah=""
             className="bg-[#463BD5]"
           >
