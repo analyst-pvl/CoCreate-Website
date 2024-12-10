@@ -75,14 +75,14 @@ const TopDiv = () => {
             />
           </Card>
         </div>
-        {/* <div className="flex-1 gap-10 flex flex-col items-center">
+        <div className="flex-1 gap-10 flex flex-col items-center">
           <Card parah="10x Better value for your budget" isVisible={isVisible}>
             <Image src="DigitalCompliance.svg" width={44} height={42} alt="" />
           </Card>
           <Card parah="Flexible models to partner, invest or license" isVisible={isVisible}>
             <Image src="BrandCompliance.svg" width={45} height={40} alt="" />
           </Card>
-        </div> */}
+        </div>
       </div>
     </div>
   );
@@ -163,7 +163,7 @@ const Programs = () => {
     <div className="flex justify-center bg-[#1F1F1F] text-[#F0F0F0]">
       <div className="container py-20 relative">
         <TopDiv />
-        <BottomDiv />
+        {/* <BottomDiv /> */}
       </div>
     </div>
   );
