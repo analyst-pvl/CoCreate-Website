@@ -15,9 +15,7 @@ const TechCard = (props) => {
       onTouchEnd={() => setHover(false)}
     >
       <div
-        className={`absolute w-full h-full bg-red-400 rounded-lg -z-10  transition-all duration-300 ${
-          hover && "rotate-3"
-        }`}
+        className={`absolute w-full h-full bg-red-400 rounded-lg -z-10  transition-all duration-300 ${hover && "rotate-50"}`}
       ></div>
       <div className="p-5 bg-white rounded-lg flex items-center justify-center">
         <img
