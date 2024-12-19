@@ -53,9 +53,9 @@ const Highlights = () => {
         </div>
         <div className="flex gap-20 mt-20 flex-wrap">
           <Card
-            parah="Projects completed with top tech firms, funds and governments"
+            parah="Innovations & Projects completed with top tech firms, funds and governments"
             className="blue-gradient"
-            highlight="40+"
+            highlight="75+"
             isVisible={isVisible}
           />
           <Card
@@ -65,9 +65,9 @@ const Highlights = () => {
             isVisible={isVisible}
           />
           <Card
-            parah="Contracts awarded over the past 2 years"
+            parah="Patents filed over the past 3 years"
             className="orange-gradient"
-            highlight="20+"
+            highlight="50+"
             isVisible={isVisible}
           />
         </div>

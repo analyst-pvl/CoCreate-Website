@@ -28,7 +28,7 @@ const Innovation = () => {
           <Card parah="It enables the creation of customised technologies that fit specific organisational needs" />
           <Card parah="Attracts and retains top tech talent that is ever eager to solve challenging problems" />
           <Card parah="Empowers organisations in adapating quickly to emerging market trends and technologies" />
-          <Card parah="Fosters competivite advantages by embracing cutting edge advancements in deep innovation" />
+          <Card parah="Fosters competetive advantages by embracing cutting edge advancements in deep innovation" />
           <Card parah="Promotes a culture of continuous learning and in-house technological expertise development" />
         </div>
       </div>

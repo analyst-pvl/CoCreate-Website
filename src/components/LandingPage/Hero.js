@@ -31,8 +31,7 @@ const Hero = () => {
             display && "opacity-100"
           }`}
         >
-          Enabling bright students to build amazing technologies + startups
-          while on campus
+          A venture studio for cocreation
         </p>
         <button
           className="bg-[#F0F0F0] text-black mt-7 font-semibold py-2 px-8 rounded hover:bg-gradient-to-r hover:from-sky-500 hover:to-emerald-500 to-90%"

@@ -18,11 +18,14 @@ const page = () => {
     <>
       <NavBar />
       <Hero />
-      <Funding />
-      <Innovation />
-      <Highlights />
       <Excuse />
       <Programs />
+      <Highlights />
+      <Funding />
+      {/* <Innovation /> */}
+      
+      
+      
       <Partner />
       {/* <Team />
       <Advisors />

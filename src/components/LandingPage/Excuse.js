@@ -42,37 +42,37 @@ const Excuse = () => {
 
   const data = [
     {
-      question: "“I don't have/ not sure about the idea I have”",
-      ans: "We organise programs to ideate better as well as have initiatives for you to pick ideas that we have identified",
+      question: "“Outsourcing can help me only solve immediate needs”",
+      ans: "Innovation fuels long-term growth by driving unique, transformative business solutions",
     },
     {
-      question: "“I want to gain experience in a good company”",
-      ans: "Come intern with our portfolio companies and work with deep-tech to solve interesting problems, mentored by the best from the industry",
+      question: "“My organisation is limited to existing tools delivered by partners”",
+      ans: "Innovation enables the creation of customised technologies that fit specific organisational needs",
     },
     {
-      question: "“I need financial support”",
-      ans: "Build your ideas with us, with support and funding upto a value of $150k",
+      question: "“Outsourcing means no people for my team”",
+      ans: "Innovation attracts and retains top tech talent that is ever eager to solve challenging problems",
     },
     {
-      question: "“I dont have a team & dont know how to build it”",
-      ans: "Our model ensures we help you to build your team, as well as get the right people to guide and participate in building your idea",
+      question: "“My company has to rely on service providers to keep up with trends”",
+      ans: "Innovation empowers organisations in adapating quickly to emerging market trends and technologies",
     },
     {
-      question: "“I have loans/ bill to pay”",
-      ans: "With a relatively short launch time from your idea to market, ensure you are financially secure",
+      question: "“Organisation is limited to packaging built solutions”",
+      ans: "Innovation fosters competetive advantages by embracing cutting edge advancements in deep innovation",
     },
     {
-      question: "“I have to do my Masters”",
-      ans: "As an entrepreneur/enabler with us, you get an opporuntity to do an Integrated Masters Program from top institutions across the world",
+      question: "“Outsourcing limits my company in advancing expertise”",
+      ans: "Innovation promotes a culture of continuous learning and in-house technological expertise development",
     },
-    {
-      question: "“I don't want my academics to be affected”",
-      ans: "Working with us will not only motivate you to perform better in coursework, but we also work with institutions to lessen the burden on student entrepreneurs",
-    },
-    {
-      question: "“Who will invest in my idea”",
-      ans: "Investments will come in through our Fund, with interest from other Investors for future rounds along with participation initially",
-    },
+    // {
+    //   question: "“I don't want my academics to be affected”",
+    //   ans: "Working with us will not only motivate you to perform better in coursework, but we also work with institutions to lessen the burden on student entrepreneurs",
+    // },
+    // {
+    //   question: "“Who will invest in my idea”",
+    //   ans: "Investments will come in through our Fund, with interest from other Investors for future rounds along with participation initially",
+    // },
   ];
 
   return (
@@ -81,7 +81,7 @@ const Excuse = () => {
         <div className="flex items-center justify-center gap-x-[10%]">
           <div className="border-2 w-[10%] border-black" />
           <h2 className="text-4xl lg:text-5xl text-center font-medium">
-            What’s your Excuse to Startup?
+            Innovation vs Outsourcing
           </h2>
           <div className="border-2 w-[10%] border-black" />
         </div>

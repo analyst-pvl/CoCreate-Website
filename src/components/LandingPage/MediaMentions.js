@@ -20,7 +20,7 @@ const MediaMentions = () => {
               heading={item.heading}
               date={item.date}
               link={item.link}
-              src={item.image}
+              src={item.src}
             />
           ))}
         </div>

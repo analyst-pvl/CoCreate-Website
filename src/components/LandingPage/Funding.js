@@ -110,8 +110,8 @@ const Funding = () => {
           }`}
         >
           <Card
-            heading="Corporates"
-            parah=""
+            heading="Corporates & Industries"
+            parah="Embrace innovation to unlock the value from new economy. We coinvest and partner to create innovations that unlocks inherent value"
             className="bg-[#3EBDD9]"
           >
             <Image
@@ -124,7 +124,7 @@ const Funding = () => {
           </Card>
           <Card
             heading="GCCs"
-            parah=""
+            parah="Why outsource when you can Insource the innovators? We invest in teams and innovations to empower GCC’s & their leaders to champion the innovation"
             className="bg-[#D6435D]"
           >
             <Image
@@ -137,7 +137,7 @@ const Funding = () => {
           </Card>
           <Card
             heading="Entrepreneurs"
-            parah=""
+            parah="Bring us an idea and we transform the same in to fundable proposition. We co-invest & cocreate with you"
             className="bg-[#463BD5]"
           >
             <Image

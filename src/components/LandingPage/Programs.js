@@ -50,7 +50,7 @@ const TopDiv = () => {
   return (
     <div ref={inViewRef}>
       <h2 className="text-center font-semibold text-3xl lg:text-4xl">
-        Our Methodology
+        Our Strengths
       </h2>
       <div
         className={`flex py-10 gap-x-10 flex-col md:flex-row gap-y-10 opacity-0 transition-all duration-500 ${
