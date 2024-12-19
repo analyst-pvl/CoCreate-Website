@@ -13,7 +13,7 @@ const Solutions = () => {
           </h2>
           <div className="border-2 w-[10%] border-white" />
         </div>
-        <div className="grid text-black grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-20 gap-10 ">
+        <div className="grid text-black grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-20 gap-10 justify-center ">
           {data.map((item, index) => (
             <TechCard
               key={index}
