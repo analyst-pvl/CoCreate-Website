@@ -21,7 +21,7 @@ const Partner = () => {
         <div className="flex items-center justify-center gap-x-[10%]">
           <div className="border-2 w-[10%] border-black" />
           <h2 className="text-4xl lg:text-5xl text-center font-medium">
-            Partner with Us
+            Collaborate with Us
           </h2>
           <div className="border-2 w-[10%] border-black" />
         </div>
