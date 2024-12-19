@@ -12,6 +12,7 @@ import Excuse from "@/components/LandingPage/Excuse";
 import Programs from "@/components/LandingPage/Programs";
 import Advisors from "@/components/LandingPage/Advisors";
 import Entrepreneurs from "@/components/LandingPage/Entrepreneurs";
+import Solutions from "@/components/LandingPage/Solutions";
 
 const page = () => {
   return (
@@ -23,9 +24,7 @@ const page = () => {
       <Highlights />
       <Funding />
       {/* <Innovation /> */}
-      
-      
-      
+      <Solutions />      
       <Partner />
       {/* <Team />
       <Advisors />
