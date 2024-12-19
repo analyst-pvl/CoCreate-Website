@@ -19,9 +19,10 @@ const TechCard = (props) => {
           hover && "rotate-3"
         }`}
       ></div>
-      <img className="h-28 bg-white rounded-lg object-center object-contain" src={props.src}></img>
+      <img className="h-28 bg-white rounded-lg object-center object-contain py-5" src={props.src}></img>
       <div className="p-5 flex flex-col justify-between flex-1">
-        <h3 className="lg:w-4/5">{props.heading}</h3>
+        <h3 className="lg:w-4/5 text-center">{props.heading}</h3>
+        <p className="font-normal text-sm">{props.data}</p>
         {/* <div className="flex justify-between mt-10 items-end">
           <p className="font-normal text-sm">{props.date}</p>
           <button
